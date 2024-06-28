@@ -4,6 +4,9 @@ const ContactForm = () => {
   return (
     <section className={styles.contact}>
       <h2>Contact Us</h2>
+      <p>Call us at <a href="tel:+17077423474">707-742-3474</a></p>
+
+
       <form className={styles.contactForm}>
         <div className={styles.formGroup}>
           <label htmlFor="name">Name:</label>

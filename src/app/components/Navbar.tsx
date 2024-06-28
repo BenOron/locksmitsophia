@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <Link href='/'>SM Locksmith service</Link>
+        <Link href='/'>King Locksmith</Link>
       </div>
       <ul className={styles.navLinks}>
         

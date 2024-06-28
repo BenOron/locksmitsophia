@@ -8,9 +8,7 @@ const HeroSection = () => {
       <div className={styles.heroContent}>
         <h1>Your Premium Locksmith Services</h1>
         <p>24/7 Emergency Locksmith Service | Residential & Commercial</p>
-        <Link href='/pages/contact'>
-          <div><a className={styles.ctaButton}>Contact Us</a></div>
-          </Link>
+          <p className={styles.ctaButton}>Call us at <a href="tel:+17077423474">707-742-3474</a></p>
       </div>
     </section>
   );
