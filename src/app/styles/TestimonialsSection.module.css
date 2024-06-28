@@ -1,0 +1,45 @@
+.testimonials {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.testimonialCard {
+  background-color: #f0f0f0; /* Default background color */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonialCard p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.testimonialCard cite {
+  font-style: normal;
+  font-size: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .testimonials {
+    background-color: rgb(var(--callout-rgb)); /* Adjust background color for dark mode */
+    color: rgb(var(--foreground-rgb)); /* Adjust text color for dark mode */
+  }
+
+  .testimonialCard {
+    background-color: rgb(var(--card-rgb)); /* Adjust card background color for dark mode */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust box shadow for dark mode */
+  }
+}

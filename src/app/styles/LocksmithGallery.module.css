@@ -1,0 +1,21 @@
+/* LocksmithGallery.module.css */
+
+.scrolling-gallery {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+}
+
+.gallery-container {
+  display: inline-flex;
+  gap: 20px;
+  padding: 0 20px;
+  overflow-x: auto;
+  /* width: calc(100% - 40px); */
+}
+
+.gallery-item {
+  flex: 0 0 auto;
+}
