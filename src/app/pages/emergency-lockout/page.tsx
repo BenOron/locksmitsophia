@@ -45,6 +45,20 @@ const EmergencyLockoutPage = () => {
             width: '30vh',   // Forces all images to have the same width
             height: '20vw',  // Maintains aspect ratio
         },
+        ctaButton: {
+            display: 'block',
+            width: '50%',
+            padding: '10px',
+            margin: '20px auto',
+            textAlign: 'center',
+            backgroundColor: '#007bff',
+            color: 'white',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            fontSize: '1.2em',
+
+
+        },
     };
 
     return (
@@ -75,7 +89,7 @@ const EmergencyLockoutPage = () => {
                 <p style={styles.p}>
                     We assess your property and recommend the best security solutions tailored to your needs.
                 </p>
-
+                <a style={styles.ctaButton} href="tel:+17077423474">707-742-3474</a>
                 {/* Image Gallery Section */}
                 <div style={styles.imageGallery}>
                     <div style={styles.imageContainer}>
