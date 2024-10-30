@@ -1,5 +1,4 @@
 .hero {
-  background: url('/hero-background.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +59,6 @@
 
 @media (prefers-color-scheme: dark) {
   .hero {
-    background-image: url('/hero-background-dark.jpg');
     color: rgb(var(--foreground-rgb));
   }
 
