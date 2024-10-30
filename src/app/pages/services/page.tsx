@@ -1,15 +1,9 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import ServicesSection from "@/app/components/ServicesSection";
+import EmergencyLockoutPage from "@/app/pages/emergency-lockout/page";
 
 const Contact = () => {
   return (
-    <div>
-      <Navbar />
-      <ServicesSection />
-      <Footer />
-    </div>
+      <EmergencyLockoutPage />
   );
 };
 
